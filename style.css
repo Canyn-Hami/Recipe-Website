@@ -143,3 +143,9 @@ footer {
 .recipe-info .btn:hover {
     background-color: #e58f17;
 }
+
+.ads-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
