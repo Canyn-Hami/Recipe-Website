@@ -53,8 +53,7 @@ aside {
 
 .content {
     width: 55%;
-	background-color: white;
-    opacity: 0.7; 
+    opacity: 0.5; 
     padding: 10px;
     border: 1px solid black;
 }
