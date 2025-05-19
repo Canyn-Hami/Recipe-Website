@@ -53,16 +53,22 @@ aside {
 
 .content {
     width: 55%;
-    opacity: 0.5; 
     padding: 10px;
     border: 1px solid black;
-	color: white;
-}
+	color: black;
 
+}
+.content:not(.suggested-recipe) {
+    background-color: white;
+    opacity: 0.8;
+}
 .suggested-recipe {
     border: 1px solid black;
     padding: 5px;
     margin-bottom: 10px;
+    font-size: xx-large;
+    opacity: 1;
+    color:black;
 }
 
 footer {
