@@ -150,3 +150,8 @@ img {
 .recipe-info .btn:hover {
     background-color: #e58f17;
 }
+.fooddisplay {
+    opacity:1;
+    height: 250px;
+    width: 250px;
+}
