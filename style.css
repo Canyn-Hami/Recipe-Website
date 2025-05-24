@@ -159,6 +159,6 @@ img {
     border-style: outset;
 }
 
-.ads-image {
+.ads-image img, .ads-image2 img {
    height: 400px;
 }
