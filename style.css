@@ -159,7 +159,7 @@ img {
     border-style: outset;
 }
 
-.ads-image img, .ads-image2 img {
+.right img {
    height: 400px;
    object-fit: none;
 }
