@@ -26,6 +26,9 @@ header {
     color: #333;
 	font-size: 40px;
 }
+.logo{
+    width: 140px;
+    height: 140px;
 
 header input {
     flex-grow: 1;
