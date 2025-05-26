@@ -143,6 +143,7 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     opacity: 1;
 }
 
+
 .recipe-info {
     padding: 20px;
     text-align: left;
@@ -180,11 +181,6 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     width: 450px;
     float:right;
     border-style: outset;
-}
-
-.right img {
-   height: 400px;
-   object-fit: none;
 }
 
 .recipe-name {
