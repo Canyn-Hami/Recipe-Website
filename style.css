@@ -203,6 +203,13 @@ img {
     text-align:left;
 }
 
+#procedure {
+    font-family:Open;
+    font-size:x-large;
+    padding-left:45px;
+    padding-top: 30px;
+    padding-right:45px;
+}
 /* Cookie Font (Copy Paste this) */
 /* FOR THE COOKIE FONT */
 /*<link rel="preconnect" href="https://fonts.googleapis.com">
