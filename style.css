@@ -48,18 +48,6 @@ main {
     padding: 20px;
 }
 
-aside {
-    width: 25%;
-    background-color: #eaeaea;
-    padding: 10px;
-    border: 10px solid #C2B280;
-}
-
-.left {
-overflow:scroll;
-max-height: 1800px;
-}
-
 .content {
     width: 55%;
     padding: 10px;
@@ -84,13 +72,33 @@ footer {
     padding: 10px;
     background-color: #f4f4f4;
 }
-/* Top Recipes Section */
-.left{
+
+/* Aside Styles */
+aside {
+    width: 25%;
+    background-color: #eaeaea;
+    padding: 10px;
     border: 10px solid #C2B280;
 }
+
+.left {
+    overflow:scroll;
+    max-height: 1800px;
+    border: 10px solid #C2B280;
+}
+
 .right{
     border: 10px solid #C2B280;
 }
+.right img {
+   height: 400px;
+   object-fit: cover;
+   
+}
+
+
+/* Top Recipes Section */
+
 .top-recipes {
     padding: 60px 20px;
     text-align: center;
@@ -128,7 +136,7 @@ footer {
     transform: translateY(-10px);
 }
 
-img {
+img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4"], img[alt="Recipe 5"], img[alt="Recipe 6"], img[alt="Recipe 7"] {
     width: 100%;
     height: 200px;
     object-fit: cover;
