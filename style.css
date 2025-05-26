@@ -55,6 +55,11 @@ aside {
     border: 10px solid #C2B280;
 }
 
+.left {
+overflow:scroll;
+max-height: 1800px;
+}
+
 .content {
     width: 55%;
     padding: 10px;
@@ -209,6 +214,13 @@ img {
     padding-left:45px;
     padding-top: 30px;
     padding-right:45px;
+    padding-bottom: 45px;
+}
+.note {
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
 }
 /* Cookie Font (Copy Paste this) */
 /* FOR THE COOKIE FONT */
