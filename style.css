@@ -58,7 +58,8 @@ aside {
 .content {
     width: 55%;
     padding: 10px;
-    border: 1px solid black;
+    border-top: 10px solid #C2B280;
+    border-bottom: 10px solid #C2B280;
 	color: black;
     position: relative;
     background: rgba(255, 255, 255, 0.8);
@@ -79,6 +80,12 @@ footer {
     background-color: #f4f4f4;
 }
 /* Top Recipes Section */
+.left{
+    border: 10px solid #C2B280;
+}
+.right{
+    border: 10px solid #C2B280;
+}
 .top-recipes {
     padding: 60px 20px;
     text-align: center;
