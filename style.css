@@ -1,5 +1,5 @@
 body {
-    font-family: Open;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -159,8 +159,6 @@ img {
 .recipe-info .btn:hover {
     background-color: #e58f17;
 }
-
-/* Recipe Page */
 .fooddisplay {
     opacity:1;
     height: 350px;
@@ -172,41 +170,4 @@ img {
 .right img {
    height: 400px;
    object-fit: none;
-}
-.recipedesc{
-    padding:15px;
-    padding-top:70px;
-    font-size: 30px;
-    font-family:Open;
-    
-}
-.recipe-name {
-    border: 1px solid black;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size: xx-large;
-
-    font-family: "Cookie", Open;
-    opacity: 1;
-    color:black;
-}
-.ingredients{
-    clear:both;
-    font-family:Open;
-    font-size:x-large;
-    padding-left:45px;
-    padding-top: 30px;
-    padding-right:45px;
-    text-align:left;
-}
-
-
-/* FOR THE COOKIE FONT */
-/*<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">*/
-.cookie-regular {
-  font-family: "Cookie";
-  font-weight: 400;
-  font-style: normal;
 }
