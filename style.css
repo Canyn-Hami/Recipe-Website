@@ -52,6 +52,7 @@ aside {
     width: 25%;
     background-color: #eaeaea;
     padding: 10px;
+    border: 10px solid #C2B280;
 }
 
 .content {
