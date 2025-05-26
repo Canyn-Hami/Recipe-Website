@@ -159,6 +159,8 @@ img {
 .recipe-info .btn:hover {
     background-color: #e58f17;
 }
+
+/* Recipe Page */
 .fooddisplay {
     opacity:1;
     height: 350px;
@@ -180,4 +182,12 @@ img {
     font-family:Open;
     opacity: 1;
     color:black;
+}
+
+.recipedesc {
+    padding:15px;
+    padding-top:70px;
+    font-size: 30px;
+    font-family:Open;
+    
 }
