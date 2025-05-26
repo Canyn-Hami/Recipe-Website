@@ -179,7 +179,7 @@ img {
     padding: 5px;
     margin-bottom: 10px;
     font-size: xx-large;
-    font-family:Open;
+    font-family:"Cookie", Open;
     opacity: 1;
     color:black;
 }
@@ -201,4 +201,15 @@ img {
     padding-top: 30px;
     padding-right:45px;
     text-align:left;
+}
+
+/* Cookie Font (Copy Paste this) */
+/* FOR THE COOKIE FONT */
+/*<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">*/
+.cookie-regular {
+  font-family: "Cookie";
+  font-weight: 400;
+  font-style: normal;
 }
