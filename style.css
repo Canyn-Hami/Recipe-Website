@@ -181,6 +181,7 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     width: 450px;
     float:right;
     border-style: outset;
+    margin-bottom: 25px;
 }
 
 .recipe-name {
@@ -191,6 +192,7 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     font-family:"Cookie", Open;
     opacity: 1;
     color:black;
+    background-color:#f0e6d3;
 }
 
 .recipedesc {
@@ -210,6 +212,10 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     padding-top: 30px;
     padding-right:45px;
     text-align:left;
+    border: 1px solid black;
+    margin: 60px;
+    margin-top:75px;
+    background-color:#f0e6d3;
 }
 
 .stepbystep {
