@@ -27,8 +27,8 @@ header {
 	font-size: 40px;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 header input {
     flex-grow: 1;
@@ -45,16 +45,20 @@ nav a {
 main {
     display: flex;
     justify-content: space-between;
+	align-items: stretch;
     padding: 20px;
+	align-items: stretch;
 }
 
 .content {
-    width: 55%;
+	max-height: 2000px;
+    width: 60%;
+	overflow:auto;
+	box-sizing: border-box;
     padding: 10px;
     border-top: 10px solid #C2B280;
     border-bottom: 10px solid #C2B280;
 	color: black;
-    position: relative;
     background: rgba(255, 255, 255, 0.8);
 }
 
@@ -82,20 +86,25 @@ aside {
 }
 
 .left {
-    overflow:scroll;
-    max-height: 1800px;
+    overflow:auto;
+	max-height: 2000px;
+	box-sizing: border-box;
     border: 10px solid #C2B280;
 }
 
 .right{
+	max-height: 2000px;
+	box-sizing: border-box;
     border: 10px solid #C2B280;
 }
-.right img {
-   height: 400px;
-   object-fit: cover;
-   
-}
 
+.right img {
+  width: 100%;   
+  height: auto;   
+  display: block;   
+  max-width: 100%;   
+  object-fit: contain; 
+}
 
 /* Top Recipes Section */
 
@@ -174,6 +183,8 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     background-color: #e58f17;
 }
 
+
+
 /* Recipe Page */
 .fooddisplay {
     opacity:1;
@@ -232,6 +243,21 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
     font-size: 25px;
     font-style: italic;
 }
+
+.btn-next {
+	padding: 7px 15px;
+    background-color: #f5a623;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover {
+    background-color: #e58f17;
+}
+
 /* Cookie Font (Copy Paste this) */
 /* FOR THE COOKIE FONT */
 /*<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -241,4 +267,29 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
   font-family: "Cookie";
   font-weight: 400;
   font-style: normal;
+}
+
+.toggle-label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.toggle-input {
+  display: none;
+}
+
+.collapsible {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.toggle-input:checked + .collapsible {
+  max-height: 1500px; 
 }
