@@ -298,9 +298,9 @@ img[alt="Recipe 1"], img[alt="Recipe 2"], img[alt="Recipe 3"], img[alt="Recipe 4
   background-color: #04AA6D;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 30px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
 }
